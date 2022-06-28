@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.third .P1{
+    font-size: 24px;
+    padding: 0 300px;    
+    margin-top: 100px;
+    
+}
+.img-inline{
+    display:inline ;
+    border-radius: 100%;
+}
+.third .P2{
+    display: inline;
+}
+.fourth img{
+    width: 100%;
+}
+.fourth a{
+    background-color: #4285F4;
+    color: white;
+    border-radius: 5px;
+    
+}
+.Fifth{
+    margin-top: 100px;
+}
+.Fifth .all{
+    background-color: #277EFD;
+    align-items: center;
+    padding: 40px 0;
+    
+
+}
+.Fifth input{
+    padding: 5px 60px;  
+    border-radius: 5px; 
+    border: 1 px solid transparent;
+
+}
+.Fifth button{
+    border-radius: 5px; 
+    padding: 5px 10px;  
+    position: absolute;
+    right: 225px;
+    border: 1px solid transparent;
+    background-color: transparent;
+    transition: .5s all;
+
+}
+.Fifth button:hover{
+    background-color: #277EFD;
+    color: white;
+
+}
+footer a{
+    margin: 0 10px;
+    color: white;
+}
+footer{
+    padding: 30px 0;
+    margin-top: 100px;
+}
+
+@media(max-width: 768px) {
+    .third .P1{        
+        padding: 0 ;     
+        
+    }
+    .first h5{
+        text-align: center;
+    }
+    .first .card{
+        padding: 0;
+    }
+    .first a{
+        width: 100%;
+        margin: 10px 0;
+    }
+    .first img{
+       display: none;
+    }
+    .fifth{
+        display: flex;
+        justify-content: center;
+    }
+  
+}
